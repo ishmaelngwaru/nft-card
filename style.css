@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    border: 2px solid hsl(216, 50%, 16%);
+    width: 210px;
+    height: 350px;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 10px;
+    position: relative;
+}
+img{
+    position: relative;
+    max-width: 198px;
+    height: 160px;
+    top: 10px;
+    left: 23px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 190px;
+    left: 23px;
+
+}
+p{
+    font-size: 12px;
+    position: absolute;
+    top: 210px;
+    left: 23px;
+    color: grey;
+}
+.etherium-img{
+    position: absolute;
+    top: 257px;
+    left: 23px;
+    color: grey;
+    max-width: 15px;
+    height: 15px;
+
+}
+h3{
+    position: absolute;
+    top: 258px;
+    left: 36px;
+    font-size: 12px;
+    color: hsl(178, 100%, 50%);
+}
+.clock-svg{
+    position: absolute;
+    top: 257px;
+    left: 130px;
+    max-width: 15px;
+    height: 15px;
+}
+h4{
+    position: absolute;
+    top: 258px;
+    right: 3px;
+    font-size: 12px;
+    color: grey;
+}
+.line{
+    border-top: 1px solid grey;
+    width: 160px;
+    position: absolute;
+    top: 280px;
+    left: 27px;
+
+}
+.avat{
+    max-width: 20px;
+    height: 20px;
+    position:absolute;
+    top: 296px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+h2{
+    position:absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 12px;
+    color: grey;
+}
+span{
+    color: white;
+}
+/* thank guys for watching if you liked the video please show some love by liking .*/
+/* and if we reach 100 views i will make a  video making this nft card responsive....:)*/
